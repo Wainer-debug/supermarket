@@ -1,0 +1,22 @@
+/* cambiar el color de fondo a la barra */
+#box_1{
+    width: 20rem;
+    color: #FFF;
+    background-color: #009733;
+}
+
+#menu * { list-style:none;
+            margin: auto;
+}
+#menu li{ line-height:180%; background-color: #afe9ce;
+}
+#menu li a:before{ content:"\025b8"; color:#ddd; margin-right:4px;}
+#menu input[name="list"] {
+	position: absolute;
+	left: -1000em;
+	}
+/* #menu label:before{ content:"\025b8"; margin-right:4px;} */
+/* #menu input:checked ~ label:before{ content:"\025be";} */
+#menu .interior{display: none;
+}
+#menu input:checked ~ ul{display:block;}
